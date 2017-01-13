@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pretty File Icons</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin: 1em 10px;
+    }
+
+    h2 {
+      font-size: 16px;
+      margin: 1em 10px;
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+      margin: 0.5em 0;
+    }
+
+    #svg-examples, #png-examples {
+      margin: 1em 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pretty file icons</h1>
+  <h2>SVG</h2>
+  <div id="svg-examples"></div>
+  <h2>PNG</h2>
+  <div id="png-examples"></div>
+  <script type="text/javascript">
+    (function(svg, png) {
+      [
+        'ai', 'archive', 'avi', 'css', 'csv', 'dbf', 'doc', 'dwg', 'exe', 'fla',
+        'html', 'iso', 'jpg', 'json', 'js', 'mp3', 'mp4', 'pdf', 'png', 'ppt',
+        'psd', 'rtf', 'svg', 'txt', 'unknown', 'xls', 'xml', 'zip'
+      ].forEach(function(item) {
+        var img;
+
+        img = document.createElement('img');
+        img.src = 'svg/' + item + '.svg';
+        img.setAttribute('alt', item);
+        img.setAttribute('title', item);
+        svg.appendChild(img);
+
+        img = document.createElement('img');
+        img.src = 'png/' + item + '.png';
+        img.setAttribute('alt', item);
+        img.setAttribute('title', item);
+        png.appendChild(img);
+      });
+    })(
+      document.getElementById('svg-examples'),
+      document.getElementById('png-examples')
+    );
+  </script>
+</body>
+</html>

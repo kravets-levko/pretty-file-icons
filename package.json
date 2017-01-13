@@ -1,0 +1,36 @@
+{
+  "name": "pretty-file-icons",
+  "version": "1.0.0",
+  "description": "Pretty colorful icons for files (in png and svg format)",
+  "main": "index.js",
+  "scripts": {
+    "start": "xdg-open preview.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kravets-levko/pretty-file-icons.git"
+  },
+  "keywords": [
+    "file extensions",
+    "file types",
+    "file",
+    "types",
+    "extensions",
+    "file icons",
+    "icons",
+    "png icons",
+    "svg icons",
+    "colorful icons"
+  ],
+  "author": "Unknown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kravets-levko/pretty-file-icons/issues"
+  },
+  "contributors": [
+    {
+      "name": "Levko Kravets",
+      "email": "levko.ne@gmail.com"
+    }
+  ]
+}
