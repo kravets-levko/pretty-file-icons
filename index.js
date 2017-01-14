@@ -14,12 +14,12 @@ function getIcon(filename, type) {
   // Extract extension from the filename
   var ext = isString(filename) ? path.extname(filename).toLowerCase() : '';
 
-  // Validate type - it should be 'svg', '.svg', 'png' or 'png'
+  // Validate type - it should be 'svg' or '.svg'
   type = isString(type) ? type.toLowerCase() : '';
   if (type.charAt(0) == '.') {
     type = type.substr(1, type.length);
   }
-  if (['svg', 'png'].indexOf(type) >= 0) {
+  if (['svg'].indexOf(type) >= 0) {
     type = '.' + type;
   } else {
     type = '';

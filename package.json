@@ -1,7 +1,7 @@
 {
   "name": "pretty-file-icons",
-  "version": "1.0.0",
-  "description": "Pretty colorful icons for files (in png and svg format)",
+  "version": "2.0.0",
+  "description": "Pretty colorful icons for files (in svg format)",
   "main": "index.js",
   "scripts": {
     "start": "xdg-open preview.html"
@@ -18,8 +18,8 @@
     "extensions",
     "file icons",
     "icons",
-    "png icons",
     "svg icons",
+    "vector icons",
     "colorful icons"
   ],
   "author": "Unknown",

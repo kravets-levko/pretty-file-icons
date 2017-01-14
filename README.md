@@ -1,6 +1,6 @@
 # Pretty File Icons
 
-Pretty colorful icons for files (in png and svg format)
+Pretty colorful icons for files (in svg format)
 
 I found these awesome icons some time ago somewhere in the internet, and 
 currently do not have any info about the author. That's why at this moment 

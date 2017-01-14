@@ -26,41 +26,30 @@
       margin: 0.5em 0;
     }
 
-    #svg-examples, #png-examples {
+    #svg-examples {
       margin: 1em 0;
     }
   </style>
 </head>
 <body>
   <h1>Pretty file icons</h1>
-  <h2>SVG</h2>
   <div id="svg-examples"></div>
-  <h2>PNG</h2>
-  <div id="png-examples"></div>
   <script type="text/javascript">
-    (function(svg, png) {
+    (function(svg) {
       [
         'ai', 'archive', 'avi', 'css', 'csv', 'dbf', 'doc', 'dwg', 'exe', 'fla',
         'html', 'iso', 'jpg', 'json', 'js', 'mp3', 'mp4', 'pdf', 'png', 'ppt',
-        'psd', 'rtf', 'svg', 'txt', 'unknown', 'xls', 'xml', 'zip'
+        'psd', 'rtf', 'svg', 'txt', 'unknown', 'xls', 'xml', 'zip', 'gif',
+        'tiff'
       ].forEach(function(item) {
-        var img;
-
-        img = document.createElement('img');
+        var img = document.createElement('img');
         img.src = 'svg/' + item + '.svg';
         img.setAttribute('alt', item);
         img.setAttribute('title', item);
         svg.appendChild(img);
-
-        img = document.createElement('img');
-        img.src = 'png/' + item + '.png';
-        img.setAttribute('alt', item);
-        img.setAttribute('title', item);
-        png.appendChild(img);
       });
     })(
-      document.getElementById('svg-examples'),
-      document.getElementById('png-examples')
+      document.getElementById('svg-examples')
     );
   </script>
 </body>
