@@ -37,10 +37,14 @@
   <script type="text/javascript">
     (function(svg) {
       [
-        'ai', 'archive', 'avi', 'css', 'csv', 'dbf', 'doc', 'dwg', 'exe', 'fla',
-        'html', 'iso', 'jpg', 'json', 'js', 'mp3', 'mp4', 'pdf', 'png', 'ppt',
-        'psd', 'rtf', 'svg', 'txt', 'unknown', 'xls', 'xml', 'zip', 'gif',
-        'tiff'
+        'unknown', 'text', 'archive',
+        'png', 'jpg', 'gif', 'tiff', 'svg', 'ai', 'psd', 'dwg',
+        'avi', 'fla', 'mp3', 'mp4',
+        'iso', 'mdf', 'nrg',
+        'zip', '7z', 'arj', 'rar',
+        'pdf', 'doc', 'rtf', 'txt', 'xls', 'ppt',
+        'css', 'csv', 'html', 'json', 'js', 'xml',
+        'dbf', 'exe'
       ].forEach(function(item) {
         var img = document.createElement('img');
         img.src = 'svg/' + item + '.svg';
