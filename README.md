@@ -2,11 +2,9 @@
 
 Pretty colorful icons for files (in svg format).
 
-I found these awesome icons some time ago somewhere in the internet, and 
-currently do not have any info about the author. That's why at this moment 
-the licence is (temporarily) MIT; if somebody wish to claim their copyrights -
-please send me an email with proofs - and I'll change the licence (or do
-anything else that you'll require with this repository).
+Icon pack author: [Madebyoliver](http://www.flaticon.com/authors/madebyoliver).
+Icons are published as-is and under the licence by [flaticon.com](http://flaticon.com).
+Licence for everything except icons is MIT.
 
 See [index.json](index.json) for available icons list. Live preview is
 available [here](https://kravets-levko.github.io/pretty-file-icons/preview.html).
