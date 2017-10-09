@@ -1,5 +1,9 @@
 {
   "": "unknown",
+  "audio": "audio",
+  "video": "video",
+  "text": "text",
+  "archive": "archive",
 
   ".jpg": "jpg",
   ".jpe": "jpg",
@@ -38,9 +42,15 @@
   ".markdown": "text",
 
   ".avi": "avi",
+  ".mp2": "mp2",
   ".mp3": "mp3",
   ".mp4": "mp4",
   ".fla": "fla",
+  ".mxf": "mxf",
+  ".wav": "wav",
+  ".wma": "wma",
+  ".aac": "aac",
+  ".flac": "flac",
 
   ".css": "css",
   ".csv": "csv",

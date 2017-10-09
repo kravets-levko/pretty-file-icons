@@ -1,0 +1,12 @@
+full: true
+
+plugins:
+  - cleanupAttrs
+  - cleanupIDs
+  - convertColors
+  - removeComments
+  - removeEditorsNSData
+  - removeEmptyContainers
+  - removeEmptyText
+  - removeMetadata
+  - minifyStyles
