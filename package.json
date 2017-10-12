@@ -1,6 +1,6 @@
 {
   "name": "pretty-file-icons",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Pretty colorful icons for files (in svg format).",
   "main": "index.js",
   "scripts": {
